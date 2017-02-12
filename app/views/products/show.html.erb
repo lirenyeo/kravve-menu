@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Min order:</strong>
+  <%= @product.min_order %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @product.unit %>
+</p>
+
+<p>
+  <strong>Time required:</strong>
+  <%= @product.time_required %>
+</p>
+
+<p>
+  <strong>Discount option:</strong>
+  <%= @product.discount_option %>
+</p>
+
+<p>
+  <strong>Halal:</strong>
+  <%= @product.halal %>
+</p>
+
+<p>
+  <strong>Readystock:</strong>
+  <%= @product.readystock %>
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  <%= @product.ingredients %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
