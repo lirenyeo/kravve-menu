@@ -17,6 +17,7 @@ gem 'filterrific'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug', platform: :mri

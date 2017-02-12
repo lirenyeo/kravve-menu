@@ -53,6 +53,8 @@ GEM
     excon (0.53.0)
     execjs (2.7.0)
     ffi (1.9.17)
+    figaro (1.1.1)
+      thor (~> 0.14)
     filterrific (2.1.2)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
@@ -295,6 +297,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   carrierwave
+  figaro
   filterrific
   fog
   jbuilder (~> 2.5)
