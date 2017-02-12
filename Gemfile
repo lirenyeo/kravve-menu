@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'filterrific'
 gem 'carrierwave'
+gem 'mini_magick'
 gem 'fog'
 
 group :development, :test do
